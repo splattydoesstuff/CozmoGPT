@@ -2,7 +2,7 @@
 No Microslop Azure dependecies, updated dependency list, a little more stability, CUSTOM ENDPOINTS!
 Everything else is the exact same.
 
-This is a basic Python project that allows Cozmo to "Interact" with you through your LLM API of choice, as long as it supports OpenAI-based REST APIs.
+This is a basic Python project that allows Cozmo to "Interact" with you through your LLM API of choice, as long as it supports OpenAI-based REST APIs. You'll need a mic to plug in your PC.
 
 The default model is openai/gpt-oss-20b. (Yes, it's called exactly that. To change model, open Cozmo_to_ChatGPT.py, search for that string, replace with your model of choice.)
 The default endpoint is Groq, which is completely free to use under very generous limits. (This can be changed in api_secrets.py - you'll also need an API key).
