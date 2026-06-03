@@ -1,6 +1,3 @@
-# Open AI
-API_KEY = "YOUR_OPENAI_API_KEY"
-
-# Azure
-SPEECH_KEY = "YOUR_AZURE_SPEECH_KEY"
-SPEECH_REGION = "YOUR_AZURE_SPEECH_REGION"
+# AI
+API_KEY = "yo key here man"
+API_BASE_URL = "https://api.groq.com/openai/v1"
