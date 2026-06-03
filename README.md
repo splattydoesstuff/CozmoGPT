@@ -14,10 +14,10 @@ The default endpoint is Groq, which is completely free to use under very generou
  1) If you're using an Android device, with ADB installed and running on your machine, open the Cozmo App and enable SDK mode. Connect device via USB before running the script.
  If you're on iOS, enter SDK mode on the App and connect your device to the machine before running the script. iTunes may be required for proper support.
  4) Choose the character you want to use in Cozmo-to-ChatGPT.py (default character = 'Cozmo') UNTESTED
- 5) Choose if you want to use the Cozmo 2D/3D viewer (which requires the installation of the viewer separately and freeglut.dll 64 bit in the Windows/System32 folder). Default is Viewer = False and Viewer3d = False (lines 18 and 19). If using the viewer or 3D viewer start the program withtout Streamlit (using Start.bat) UNTESTED
+ 5) Choose if you want to use the Cozmo 2D/3D viewer (which requires the installation of the viewer separately and freeglut.dll 64 bit in the Windows/System32 folder). Default is Viewer = False and Viewer3d = False. If using the viewer or 3D viewer start the program withtout Streamlit (using Start.bat) UNTESTED
 
 # Speech recognition
- With the default options "ptt = False" and "longspeech = True" (lines 22, 23 of Cozmo-to-ChatGPT.py), after the first initialization and introduction message from Cozmo, the speech recognition system is constantly listening, and in the terminal the partial parts of the dialog are transcribed in real time. By pressing SPACEBAR, you acknowledge that you'll be tracked by big corps managing your non-local LLM of choice. If you change your mind, you can press BACKSPACE to reset the message and start over.
+ With the default options "ptt = False" and "longspeech = True" in Cozmo-to-ChatGPT.py, after the first initialization and introduction message from Cozmo, the speech recognition system is constantly listening, and in the terminal the partial parts of the dialog are transcribed in real time. By pressing SPACEBAR, you acknowledge that you'll be tracked by big corps managing your non-local LLM of choice. If you change your mind, you can press BACKSPACE to reset the message and start over.
 
 
 
